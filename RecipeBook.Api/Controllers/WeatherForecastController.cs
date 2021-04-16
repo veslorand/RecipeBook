@@ -44,5 +44,11 @@ namespace RecipeBook.Api.Controllers
         {
             return _configuration.GetValue<string>("ApiKey");
         }
+
+        [HttpGet("apikeyy")]
+        public string GetApiKeyy()
+        {
+            return "asd";
+        }
     }
 }

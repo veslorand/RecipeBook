@@ -4,7 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
     <UserSecretsId>36913d06-9ac8-4309-8ee8-dabf02c263b0</UserSecretsId>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
-    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+    <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
+	  <DockerFileContext>..\..\</DockerFileContext>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\RecipeBook.ServiceLibrary\RecipeBook.ServiceLibrary.csproj" />
+    <ProjectReference Include="..\RecipeBook.ServiceLibrary\RecipeBook.ServiceLibrary.csproj" />
   </ItemGroup>
 
 </Project>
